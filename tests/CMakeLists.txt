@@ -24,7 +24,11 @@ set(TEST_SRCS
   unittest.cpp
   query_string_tests.cpp
   unit_tests/test_http_response.cpp
+  unit_tests/test_json.cpp
+  unit_tests/test_mustache.cpp
   unit_tests/test_utility.cpp
+  unit_tests/test_websocket.cpp
+  unit_tests/test_json.cpp
 )
 
 add_executable(unittest ${TEST_SRCS})
